@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+main{
+    display: flex;
+    height: 95vh;
+}
+
+.card-container{
+    width: 350px;
+    margin: auto;
+    background-color: hsla(213, 20%, 18%, 0.322);
+    padding: 1.3rem;
+    border-radius: 1rem;
+}
+
+.card-container img{
+    background-color: hsla(216, 8%, 35%, 0.176);
+    /* background-color:  hsl(217, 12%, 63%); */
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card-container h2{
+    margin-bottom: 1rem;
+}
+
+.card-container p{
+    color: hsl(217, 12%, 63%);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.rating-option{
+    margin-block: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%) !important;
+    color: white !important;
+}
+.rating-option span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(216, 8%, 35%, 0.176);
+    padding: 14px;
+    width: 50px;
+    border-radius: 100%;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+
+
+.rating-option span:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+/* .rating-option span:focus{
+    background-color: white;
+} */
+
+.btn{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+/* second card  */
+
+.card-container2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: auto;
+    background-color: hsla(213, 20%, 18%, 0.322);
+    padding: 1.3rem;
+    border-radius: 1rem;
+}
+
+.card-container img{
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.msg{
+    margin-block: 1.3rem;
+    padding: 8px 12px;
+    background-color: hsla(216, 8%, 35%, 0.176);
+    color: hsl(25, 97%, 53%);
+    border-radius: 1.5rem;
+    font-size: 14px;
+}
+
+.msg-para{
+    margin-block: 1rem;
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.4;
+}
